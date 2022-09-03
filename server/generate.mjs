@@ -21,7 +21,7 @@ export function createRandomCourse() {
   return {
     id: faker.datatype.uuid(),
     name: faker.internet.userName(),
-    desription: faker.internet.email(),
+    description: faker.internet.email(),
   };
 }
 
